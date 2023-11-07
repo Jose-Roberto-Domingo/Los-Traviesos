@@ -1,0 +1,7 @@
+CREATE DATABASE usuario;
+use usuario;
+CREATE TABLE usuarios (
+  id INT(11) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  usuario VARCHAR(50) NOT NULL,
+  contraseña VARCHAR(255) NOT NULL
+);
